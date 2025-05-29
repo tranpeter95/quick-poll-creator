@@ -1,0 +1,30 @@
+# Node modules
+**/node_modules/
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# dotenv files (sensitive env vars)
+**/.env
+**/.env.*
+
+# Compiled output (if using TypeScript or a build step)
+**/dist/
+**/build/
+**/.next/
+**/.turbo/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# lockfiles (optional, pick one if not using the other)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
